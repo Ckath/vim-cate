@@ -30,6 +30,9 @@ let s:builtin=1
 let s:comment=7
 let s:warning=3
 let s:highlight=9
+let s:diffadd=2
+let s:diffchange=3
+let s:diffdelete=1
 
 exe 'hi Normal ctermfg='s:fg
 exe 'hi Visual ctermfg='s:bg' ctermbg='s:bg3
@@ -146,3 +149,8 @@ exe 'hi SpellRare ctermfg='s:bg
 
 " Tag List
 exe 'hi FoldColumn ctermfg='s:fg' ctermbg='s:bg2
+
+" Diff
+exe 'hi DiffAdd cterm=bold ctermbg=NONE ctermfg='s:diffadd
+exe 'hi DiffChange cterm=bold ctermbg=NONE ctermfg='s:diffchange
+exe 'hi DiffDelete cterm=bold ctermbg=NONE ctermfg='s:diffdelete
