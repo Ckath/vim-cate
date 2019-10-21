@@ -38,7 +38,7 @@ exe 'hi Normal ctermfg='s:fg
 exe 'hi Visual ctermfg='s:bg' ctermbg='s:bg3
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
 exe 'hi Cursorline  ctermbg='s:bg
-exe 'hi CursorLineNr ctermbg='s:bg' ctermfg='s:highlight
+exe 'hi CursorLineNr cterm=NONE ctermbg='s:bg' ctermfg='s:highlight
 exe 'hi CursorColumn  ctermbg='s:bg
 exe 'hi ColorColumn  ctermbg='s:bg
 exe 'hi LineNr ctermfg='s:bg2' ctermbg='s:bg
