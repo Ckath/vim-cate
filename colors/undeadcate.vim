@@ -154,3 +154,6 @@ exe 'hi FoldColumn ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi DiffAdd cterm=bold ctermbg=NONE ctermfg='s:diffadd
 exe 'hi DiffChange cterm=bold ctermbg=NONE ctermfg='s:diffchange
 exe 'hi DiffDelete cterm=bold ctermbg=NONE ctermfg='s:diffdelete
+
+" Sign Column
+exe 'hi SignColumn ctermbg=NONE'
