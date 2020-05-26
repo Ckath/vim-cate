@@ -35,7 +35,7 @@ let s:diffchange=3
 let s:diffdelete=1
 
 exe 'hi Normal ctermfg='s:fg
-exe 'hi Visual ctermfg='s:bg' ctermbg='s:bg3
+exe 'hi Visual cterm=reverse ctermfg=NONE ctermbg=NONE'
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
 exe 'hi Cursorline  ctermbg='s:bg
 exe 'hi CursorLineNr cterm=NONE ctermbg='s:bg' ctermfg='s:highlight
@@ -47,8 +47,8 @@ exe 'hi MatchParen cterm=bold ctermfg='s:bg' ctermbg='s:fg2
 exe 'hi StatusLine cterm=NONE term=NONE ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi Pmenu ctermfg='s:fg2' ctermbg='s:bg
 exe 'hi PmenuSel cterm=bold ctermfg='s:highlight' ctermbg='s:bg
-exe 'hi IncSearch cterm=NONE ctermbg='s:fg2' ctermfg='s:bg
-exe 'hi Search cterm=bold ctermbg='s:fg2' ctermfg='s:bg
+exe 'hi IncSearch cterm=reverse ctermbg=NONE ctermfg=NONE'
+exe 'hi Search cterm=reverse ctermbg=NONE ctermfg=NONE'
 exe 'hi Directory ctermfg='s:const
 exe 'hi Folded ctermfg='s:fg2' ctermbg='s:bg
 
